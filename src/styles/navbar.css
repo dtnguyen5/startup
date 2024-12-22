@@ -1,0 +1,62 @@
+/* Obecné resetování pro všechny elementy */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Main_navbar{
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 20px;
+}
+
+/* Styly pro navbar */
+.Navbar {
+  background-color: white;
+  display: flex;
+  justify-content: center; /* Centrumje navbar na stránce */
+  padding: 10px;
+  width: 75%; /* Zajistí, že navbar bude mít šířku na celou šířku stránky */
+  height: 10vh; /* Výška navbaru */
+  border-radius: 18px;
+}
+
+.Navbar_Space {
+  display: flex;
+  justify-content: space-between; /* Umožní prostor mezi logem a menu */
+  align-items: center; /* Zarovná obsah vertikálně na střed */
+  width: 100%; /* Omezí šířku navbaru na 80% stránky */
+  max-width: 1200px; /* Maximální šířka navbaru */
+}
+
+.Navbar nav ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 1.4rem;
+}
+
+.Navbar nav ul li {
+  margin-right: 40px; /* Mezery mezi položkami */
+}
+
+.Navbar nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.Navbar nav ul li a:hover {
+  background-color: #CEEDFF;
+}
+
+.Nazev{
+  color: #0F294F;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Navbar_obsah{
+  justify-content: space-between;
+  width: 11vw;
+}
