@@ -46,9 +46,13 @@ const Navbar = () => {
 
             <ul>
 
-              {navLinks.map((link) => (
+              {navLinks.map((link) => (  // Mapovací funkce iteruje přes každou položku pole `navLinks`. `link` je aktuální objekt z pole (např. { label: "Domů", href: "/" }).
                 <li key={link.label}>
-                  <Link href={link.href}>{link.label}</Link>
+                   {/* Každá položka seznamu má unikátní klíč `key`. Zde používáme `label` jako unikátní identifikátor. */}
+                   
+                  <Link href={link.href}>{link.label}</Link> {/* Komponenta `<Link>` z Next.js vytváří odkaz.
+                                                                `href` je URL (např. "/", "/about"), která pochází z `link.href`.
+                                                                `{link.label}` je text odkazu (např. "Domů", "O nás"). */}
                 </li>
               ))}
               
