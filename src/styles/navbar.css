@@ -18,19 +18,19 @@
 .Navbar {
   background-color: white;
   display: flex;
-  justify-content: center; /* Centrumje navbar na stránce */
+  justify-content: center; 
   padding: 10px;
-  width: 75%; /* Zajistí, že navbar bude mít šířku na celou šířku stránky */
-  height: 10vh; /* Výška navbaru */
+  width: 75%; 
+  height: 10vh; 
   border-radius: 18px;
 }
 
 .Navbar_Space {
   display: flex;
-  justify-content: space-between; /* Umožní prostor mezi logem a menu */
-  align-items: center; /* Zarovná obsah vertikálně na střed */
-  width: 100%; /* Omezí šířku navbaru na 80% stránky */
-  max-width: 1200px; /* Maximální šířka navbaru */
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%; 
+  max-width: 1200px; 
 }
 
 .Navbar nav ul {

@@ -14,8 +14,24 @@
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.homepage-body {
+  background: url('/images/inventura.svg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden
 }
+
+/* Globální nastavení */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Nastaví výšku stránky */
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* Zajistí, že hlavní obsah zabere zbývající výšku */
+}
+
+        

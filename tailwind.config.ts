@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        roboto: ['"Roboto"', 'sans-serif'],  // Přidání Roboto
+        poppins: ['"Poppins"', 'sans-serif'], // Přidání Poppins
+      },
     },
   },
   plugins: [],
