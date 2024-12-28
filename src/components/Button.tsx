@@ -5,7 +5,7 @@ import "../styles/button.css";
 import { useRouter } from "next/navigation"; 
 
 interface ButtonProps {
-  label: string;  // Text tlačítka
+  label: React.ReactNode;  // Umožní předávat jakýkoli React obsah
 }
 
 const Button: React.FC<ButtonProps> = ({ label }) => {

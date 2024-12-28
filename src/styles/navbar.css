@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -39,9 +41,9 @@
 
 
 .Navbar nav ul li a {
-  color: black;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
-  padding: 10px 32px;
+  padding: 10px 27px;
   display: inline-block; 
   border-radius: 4px;
   transition: background-color 150ms linear, border-radius 150ms linear; 
@@ -49,7 +51,7 @@
 
 .Navbar nav ul li a:hover {
   background-color: #CEEDFF;
-  border-radius: 12px; 
+  box-shadow: 0px 2px 4px rgb(0, 0, 0, 10%);
 }
 
 .Nazev{
@@ -62,3 +64,4 @@
   justify-content: space-between;
   width: 11vw;
 }
+
