@@ -15,6 +15,8 @@ export default {
       fontFamily: {
         roboto: ['"Roboto"', 'sans-serif'],  // Přidání Roboto
         poppins: ['"Poppins"', 'sans-serif'], // Přidání Poppins
+        inter: ['Inter', 'sans-serif'], 
+
       },
     },
   },

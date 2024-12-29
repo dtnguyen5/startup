@@ -28,17 +28,17 @@ const HomePage = async () =>{
 
       </div>
 
-      <div className="flex flex-col text-[0F294F] text-[32px] font-Inter h-[18vh] items-center">
+      <div className="flex flex-col text-[0F294F] text-[32px] font-inter h-[18vh] items-center">
 
         <div className=" buttons h-[8vh] w-[15.16vw] flex items-center justify-center text-center bg-white text-[#0F294F] text-[28px] font-Inter rounded-full mb-4">
 
-          <Button label="Jak to funguje?"/>
+          <Button label="Jak to funguje?" target="/about"/>
 
         </div>
 
         <div className=" buttons h-[8vh] w-[14.69vw] flex items-center justify-center text-center bg-white text-[#0F294F] text-[28px] font-Inter rounded-full">
 
-          <Button label={<><span className="mr-5">Zjistit více</span>&nbsp;<span className="font-bold">↓</span></>} />
+          <Button label={<><span className="mr-5">Zjistit více</span>&nbsp;<span className="font-bold">↓</span></>} target="/about"/>
 
         </div>
 
