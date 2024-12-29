@@ -78,7 +78,7 @@ const Navbar = () => {
                   </Link>   
 
                   {pathname === link.href && (
-                    <span className="absolute left-0 bottom-[-6px] w-full h-[3px] bg-[#1D8DCD] rounded-full"></span>)}
+                    <span className="absolute left-0 bottom-[-5px] w-full h-[4px] bg-[#1D8DCD] rounded-full"></span>)}
                     {/*// Pokud je aktuální cesta (pathname) shodná s href odkazu, vykreslí se `span` s absolutní pozicí (zarovnaný doleva, posunutý o -6px dolů, široký jako rodič, vysoký 3px, modré barvy a zaoblený), což vytváří linku pod aktivním odkazem.
                      */}
                        
