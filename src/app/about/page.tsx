@@ -93,6 +93,7 @@ const AboutUs = async () => {
                   <Feature number="05" title="Podpora a zákaznický servis" />
                   
                 </div>
+                  
               </div>
 
             </div>
