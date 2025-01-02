@@ -1,4 +1,3 @@
-"use client"
 import Image from "next/image"; // Import Image komponenty z Next.js
 import React from "react";
 import "../styles/background.css";
